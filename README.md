@@ -1,11 +1,7 @@
-# sorrylinus-again
+# gomehub
 
-I'm sorry Linus, again, for abandoning C to create reliable and maintainable dashboard that supports video streaming and chat
+Go media hub server that supports video streaming, chat, and contents sharing
 
-
-# site
-
-[feebdaed.xyz](https://feebdaed.xyz)
 
 
 # video chat
