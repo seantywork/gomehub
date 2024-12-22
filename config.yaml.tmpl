@@ -1,15 +1,15 @@
 # if debug is true
 # will not be deployed by cicd pipeline
 
-debug: true
+debug: false
 
 # set this to a domain name when deploying
 # this doesn't matter if debug is true
-externalUrl: dingdong.feebdaed.xyz
+externalUrl: feebdaed.xyz
 
 # set this to a host ip
 # this doesn't matter if debug if false
-internalUrl: 10.1.3.4
+internalUrl: 34.86.192.7
 
 # no need to change unless you're extra careful of security...
 # nevermind, just leave it this way
@@ -53,14 +53,14 @@ stream:
 # check it up before running this program
 # currently I'm using `coturn` for this
   turnServerAddr:
-    - addr: dingdong.feebdaed.xyz
+    - addr: turn:feebdaed.xyz:3478
       id: hello
       pw: example
 # don't mess with this option
 # I don't even know what it does
   peerSignalAttemptSync: 5
 # this is to handle WebRTC event websocket messages
-  peerSignalAddr : /signal/peer
+  peerSignalAddr : /signal/peer/
 # this is never likely to set to true
   singleRoomMode: false
 # also don't mess with this option
@@ -74,8 +74,8 @@ stream:
 # IMPORTANT: 
 # be sure to open ALL of the ports below
 # in your firewall setting or reverse proxy setting
-  udpEphemeralPortMin: 30100
-  udpEphemeralPortMax: 30500
+  udpEphemeralPortMin: 31000
+  udpEphemeralPortMax: 31100
 
 # this one is for handling Gstreamer camera stream handling
   rtpReceivePort: 8004
