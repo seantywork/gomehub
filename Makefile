@@ -13,7 +13,7 @@ vendor:
 
 	git submodule init
 
-	cd public/vendor/TuiCss && git pull
+	git submodule update
 
 .PHONY: test
 test:
