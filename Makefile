@@ -2,12 +2,12 @@
 
 all:
 
-	@echo "sorrylinus-again"
+	@echo "gomehub"
 
 
 build:
 
-	go build -o soliagain.out .
+	go build -o gomehub.out .
 
 vendor:
 
