@@ -13,7 +13,7 @@ import (
 	"github.com/wimspaargaren/yolov3"
 
 	"github.com/gorilla/websocket"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
+	"github.com/seantywork/gomehub/pkg/dbquery"
 )
 
 func turn_on_gui_with_video() {

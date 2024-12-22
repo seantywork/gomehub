@@ -1,4 +1,4 @@
-module github.com/seantywork/sorrylinus-again
+module github.com/seantywork/gomehub
 
 go 1.21.5
 

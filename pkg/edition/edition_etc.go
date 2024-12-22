@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkgdbq "github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	"github.com/seantywork/gomehub/pkg/dbquery"
+	pkgdbq "github.com/seantywork/gomehub/pkg/dbquery"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 func PostVideoUpload(c *gin.Context) {

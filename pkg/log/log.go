@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
+	"github.com/seantywork/gomehub/pkg/dbquery"
 )
 
 var FLUSH_INTERVAL_SEC int

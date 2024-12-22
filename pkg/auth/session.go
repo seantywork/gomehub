@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkglog "github.com/seantywork/sorrylinus-again/pkg/log"
+	"github.com/seantywork/gomehub/pkg/dbquery"
+	pkglog "github.com/seantywork/gomehub/pkg/log"
 )
 
 func WhoAmI(c *gin.Context) (string, string, string) {

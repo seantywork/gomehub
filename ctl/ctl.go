@@ -7,13 +7,13 @@ import (
 
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	pkgcom "github.com/seantywork/sorrylinus-again/pkg/com"
-	pkgedition "github.com/seantywork/sorrylinus-again/pkg/edition"
-	pkglog "github.com/seantywork/sorrylinus-again/pkg/log"
-	pkgman "github.com/seantywork/sorrylinus-again/pkg/manage"
-	pkgstream "github.com/seantywork/sorrylinus-again/pkg/stream"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	pkgcom "github.com/seantywork/gomehub/pkg/com"
+	pkgedition "github.com/seantywork/gomehub/pkg/edition"
+	pkglog "github.com/seantywork/gomehub/pkg/log"
+	pkgman "github.com/seantywork/gomehub/pkg/manage"
+	pkgstream "github.com/seantywork/gomehub/pkg/stream"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 func CreateServer() *gin.Engine {

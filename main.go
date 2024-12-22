@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	solictl "github.com/seantywork/sorrylinus-again/ctl"
+	solictl "github.com/seantywork/gomehub/ctl"
 )
 
 func main() {

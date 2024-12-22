@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkgstream "github.com/seantywork/sorrylinus-again/pkg/stream"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	"github.com/seantywork/gomehub/pkg/dbquery"
+	pkgstream "github.com/seantywork/gomehub/pkg/stream"
 )
 
 type EntryStruct struct {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/pion/webrtc/v4"
-	ch "github.com/seantywork/sorrylinus-again/pkg/com"
+	ch "github.com/seantywork/gomehub/pkg/com"
 )
 
 type SIGNAL_INFO struct {

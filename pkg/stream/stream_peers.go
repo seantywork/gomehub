@@ -13,10 +13,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pion/rtcp"
 	"github.com/pion/webrtc/v4"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	"github.com/seantywork/sorrylinus-again/pkg/utils"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	"github.com/seantywork/gomehub/pkg/utils"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 var PEERS_SIGNAL_PATH string

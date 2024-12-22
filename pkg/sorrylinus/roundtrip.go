@@ -3,7 +3,7 @@ package sorrylinus
 import (
 	"fmt"
 
-	"github.com/seantywork/sorrylinus-again/pkg/com"
+	"github.com/seantywork/gomehub/pkg/com"
 )
 
 func RoundTrip(u string, req *com.RT_REQ_DATA) (*com.RT_RESP_DATA, error) {

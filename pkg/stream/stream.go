@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pion/ice/v3"
 	"github.com/pion/webrtc/v4"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
+	"github.com/seantywork/gomehub/pkg/com"
 )
 
 var DEBUG bool

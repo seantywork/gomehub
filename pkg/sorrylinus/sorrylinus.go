@@ -9,9 +9,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 var DEBUG bool

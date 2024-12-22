@@ -8,9 +8,9 @@ import (
 
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	"github.com/seantywork/gomehub/pkg/com"
+	"github.com/seantywork/gomehub/pkg/dbquery"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 var DEBUG bool = false

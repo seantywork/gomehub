@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	"github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	_ "github.com/seantywork/sorrylinus-again/pkg/dbquery"
-	pkgutils "github.com/seantywork/sorrylinus-again/pkg/utils"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	"github.com/seantywork/gomehub/pkg/dbquery"
+	_ "github.com/seantywork/gomehub/pkg/dbquery"
+	pkgutils "github.com/seantywork/gomehub/pkg/utils"
 )
 
 var EXTENSION_ALLOWLIST []string

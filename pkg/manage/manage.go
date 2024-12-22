@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	pkgauth "github.com/seantywork/sorrylinus-again/pkg/auth"
-	"github.com/seantywork/sorrylinus-again/pkg/com"
-	pkglog "github.com/seantywork/sorrylinus-again/pkg/log"
+	pkgauth "github.com/seantywork/gomehub/pkg/auth"
+	"github.com/seantywork/gomehub/pkg/com"
+	pkglog "github.com/seantywork/gomehub/pkg/log"
 )
 
 func GetManualLogFlush(c *gin.Context) {
