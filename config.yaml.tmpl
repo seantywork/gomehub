@@ -14,7 +14,7 @@ internalUrl: 10.1.3.4
 # no need to change unless you're extra careful of security...
 # nevermind, just leave it this way
 serveAddr : 0.0.0.0
-servePort : 8080
+servePort : 8000
 
 # 1 GB
 maxFileSize: 1073741824
@@ -32,10 +32,10 @@ auth:
 # websocket port for generic communication with server
 # unrelated to WebRTC 
 com:
-  channelPort: 9090
+  channelPort: 8002
 # external one is needed when debug is false
 # and you need to configure port-forwarding 
-  channelPortExternal: 9091
+  channelPortExternal: 8022
 
 # this section is related to
 # uploading this and that media format
@@ -69,7 +69,7 @@ stream:
   udpBufferByteSize: 65535
 # this is needed to do WebRTC and handle
 # multiple clients without wasting too many UDP ports
-  udpMuxPort: 8086
+  udpMuxPort: 8006
 
 # IMPORTANT: 
 # be sure to open ALL of the ports below
@@ -78,9 +78,9 @@ stream:
   udpEphemeralPortMax: 30500
 
 # this one is for handling Gstreamer camera stream handling
-  rtpReceivePort: 8082
+  rtpReceivePort: 8004
 # by now you'd know what externam means
-  rtpReceivePortExternal: 8083
+  rtpReceivePortExternal: 8024
 log:
   flushIntervalSec: 360
 utils:
