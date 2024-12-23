@@ -22,8 +22,13 @@ maxFileSize: 1073741824
 # maybe too long?
 timeoutSec: 30
 
+# this defines authentication related things and 
+# default admin accounts
 auth: 
+# if you want to use OAuth2 for your admin account, set this to true
   useOauth2: false
+# here, you can add default admin accounts
+# if you use OAuth2, then pw field doesn't matter
   admins:
     - id: hello
       pw: example
