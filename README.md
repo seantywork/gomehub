@@ -4,15 +4,9 @@ Go media hub server that supports video streaming, chat, and contents sharing
 
 
 
-# video chat
+[video chat](https://youtu.be/w1EJ7NhyUHs)
 
 
-https://github.com/user-attachments/assets/b6ca19dc-2a87-422c-acd3-381d71b70e82
+[cctv streaming](https://youtu.be/OgrCqj60n2g)
 
-
-
-# stream CCTV
-
-
-https://github.com/user-attachments/assets/6856c1c1-a897-4265-ac4f-62ab333ec9c9
 
