@@ -6,7 +6,7 @@ WORKDIR /home
 
 RUN apt-get update 
 
-RUN apt-get install -y make build-essential ca-certificates
+RUN apt-get install -y make build-essential ca-certificates iproute2
 
 COPY --from=golang:1.21 /usr/local/go/ /usr/local/go/
 
@@ -24,4 +24,4 @@ RUN	make build
 
 #CMD ["tail", "-f","/dev/null"]
 
-CMD ["./soliagain.out"]
+CMD ["./gomehub.out"]

@@ -68,7 +68,6 @@ func InitWebRTCApi() {
 
 			return false
 		}
-
 		return true
 
 	}
